@@ -48,5 +48,13 @@ namespace UPMyFirstWebApp
 
             labelResult.Text = resultString;
         }
+
+        protected void convertOkButton_Click(object sender, EventArgs e)
+        {
+            double k = 3.5;
+            int i = (int)k;
+
+            convertResult.Text = i.ToString();
+        }
     }
 }

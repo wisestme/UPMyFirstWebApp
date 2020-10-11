@@ -44,6 +44,15 @@
             <br />
             <br />
             <asp:Label ID="labelResult" runat="server"></asp:Label>
+            <br />
+            <br />
+            <asp:TextBox ID="convertInputBox" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="convertOkButton" runat="server" OnClick="convertOkButton_Click" Text="Ok" />
+            <br />
+            <br />
+            <asp:Label ID="convertResult" runat="server"></asp:Label>
         </div>
     </form>
 </body>
