@@ -54,7 +54,13 @@ namespace UPMyFirstWebApp
             double k = 3.5;
             int i = (int)k;
 
-            convertResult.Text = i.ToString();
+            string sString = convertInputBox.Text;
+
+            int sNumber = int.Parse(sString);
+
+            int calcOutput = i + sNumber;
+
+            convertResult.Text = calcOutput.ToString();
         }
     }
 }
