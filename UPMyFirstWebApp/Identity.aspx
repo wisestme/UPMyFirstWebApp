@@ -35,6 +35,15 @@
             <br />
             <br />
             <asp:Label ID="userResultLabel" runat="server"></asp:Label>
+            <br />
+            <br />
+            <asp:TextBox ID="inputTextBox" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="okayButton" runat="server" Text="Ok" />
+            <br />
+            <br />
+            <asp:Label ID="labelResult" runat="server"></asp:Label>
         </div>
     </form>
 </body>
