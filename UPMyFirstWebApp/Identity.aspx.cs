@@ -38,5 +38,15 @@ namespace UPMyFirstWebApp
 
             userResultLabel.Text = userAnswer;
         }
+
+        protected void okayButton_Click(object sender, EventArgs e)
+        {
+            int i = 4;
+            int j = 6;
+            int result = i + j;
+            string resultString = result.ToString();
+
+            labelResult.Text = resultString;
+        }
     }
 }

@@ -40,7 +40,7 @@
             <asp:TextBox ID="inputTextBox" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="okayButton" runat="server" Text="Ok" />
+            <asp:Button ID="okayButton" runat="server" OnClick="okayButton_Click" Text="Ok" />
             <br />
             <br />
             <asp:Label ID="labelResult" runat="server"></asp:Label>
