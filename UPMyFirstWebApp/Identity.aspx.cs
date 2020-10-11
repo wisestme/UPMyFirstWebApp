@@ -28,5 +28,15 @@ namespace UPMyFirstWebApp
 
             resultLabel.Text = result;
         }
+
+        protected void userAnswer_Click(object sender, EventArgs e)
+        {
+            string userAge = userAgeBox.Text;
+            string userMoneyValue = userMoneyValueBox.Text;
+
+            string userAnswer = "Hello you are " + userAge + " years old and" + " you are worth " + userMoneyValue;
+
+            userResultLabel.Text = userAnswer;
+        }
     }
 }

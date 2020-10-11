@@ -21,6 +21,20 @@
             <br />
             <br />
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
+            <br />
+            <br />
+            How old are you?&nbsp;
+            <asp:TextBox ID="userAgeBox" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            How much money are you worth?&nbsp;
+            <asp:TextBox ID="userMoneyValueBox" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="userAnswer" runat="server" OnClick="userAnswer_Click" Text="Show Answer" />
+            <br />
+            <br />
+            <asp:Label ID="userResultLabel" runat="server"></asp:Label>
         </div>
     </form>
 </body>
